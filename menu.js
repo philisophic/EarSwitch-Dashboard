@@ -8,10 +8,11 @@ const axios = require('axios');
 		out how to apply it 6 times efficiently because of event listener callbacks so here's 
 		this horribly inefficient abomination. */
 
-	for (var index = 0; index < 6; index++) {
+	var overlayIndices = [1, 2, 3, 4, 6];
+	for (var index in overlayIndices) {
 		(function(i) {
-			var triggerBttn = document.getElementById( 'trigger-overlay-' + (i+1) ),
-				overlay = document.getElementById( 'overlay-' + (i+1) ),
+			var triggerBttn = document.getElementById( 'trigger-overlay-' + i ),
+				overlay = document.getElementById( 'overlay-' + i ),
 				closeBttn = overlay.querySelector( 'button.overlay-close' );
 				transEndEventNames = {
 					'WebkitTransition': 'webkitTransitionEnd',
