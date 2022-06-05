@@ -9,7 +9,7 @@ const axios = require('axios');
 		this horribly inefficient abomination. */
 
 	var overlayIndices = [1, 2, 3, 4, 6];
-	for (var index in overlayIndices) {
+	for (var index of overlayIndices) {
 		(function(i) {
 			var triggerBttn = document.getElementById( 'trigger-overlay-' + i ),
 				overlay = document.getElementById( 'overlay-' + i ),
