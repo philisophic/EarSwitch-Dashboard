@@ -1,3 +1,48 @@
 /* styles.css */
 
 /* Add styles here to customize the appearance of your app */
+
+
+.lightButton, .lightOn, .lightOff {
+	box-shadow:inset 0px 1px 0px 0px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:6px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:32px 33px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.lightButton:hover, .lightOn:hover, .lightOff:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.lightOn:active, .lightOff:active { 
+	position:relative;
+	top:1px;
+	
+}
+
+.lightButton:active {
+	position:relative;
+	top:1px;
+}
+
+.buttonHide{
+	display:none;
+
+
+}
+
+.buttonShow{
+	display:inline-block;
+
+}
+
+        
