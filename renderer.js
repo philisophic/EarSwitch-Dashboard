@@ -5,7 +5,10 @@
 // selectively enable features needed in the rendering
 // process.
 // Requires download path to be entered
-const DownloadsPath = 'C:\\Users\\chanh\\Downloads\\'
+
+
+/*
+const DownloadsPath = 'C:\\Users\\ranjo\\Downloads\\'
 const content = '0';
 const fs = require('fs');
 setInterval(function(){
@@ -23,3 +26,4 @@ setInterval(function(){
   });
 }, 1000)
 
+*/

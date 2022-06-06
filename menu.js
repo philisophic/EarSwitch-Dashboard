@@ -1,8 +1,8 @@
-const HUE_BRIDGE_IP = "";
-const HUE_USERNAME = "";
+const HUE_BRIDGE_IP = "192.168.1.2";
+const HUE_USERNAME = "ph5gqVla3tv7-g2zB2G4lu9-6yyy9WQJ8Tcz1XpT";
 
 
-
+/*
 function download(filename, text) {
 	var element = document.createElement('a');
 	element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
@@ -22,7 +22,7 @@ function download(filename, text) {
 	var filename = "hello.txt";
 	download(filename, text);
   }, false);
-
+*/
 const axios = require('axios');
 (function() {
 	/* Whoever is reading this I am so sorry, I got the code from Codrops but I couldn't figure
@@ -102,6 +102,21 @@ const axios = require('axios');
 
         
     }); 
-	
+
+	var child = require('child_process').exec;
+	var executablePath = "C:\\Windows\\System32\\osk.exe";
+	document.getElementById('trigger-overlay-5').addEventListener('click', () => { 
+
+        child(executablePath, function(err, data) {
+			if(err){
+			   console.error(err);
+			   return;
+			}
+		 
+			console.log(data.toString());
+		});
+
+        
+    });
 	
 })();
