@@ -9,7 +9,7 @@ Current and possible future features include:
 - Temperature and climate controls (currently unimplemented)
 - Music controls (placeholder embed for now)
 - Accessibility software (e.g. EarSwitch software) launcher (unimplemented)
-- On-screen keyboard launcher
+- On-screen keyboard launcher (limited to win10's osk.exe atm)
 - Color configuration (limited implementation)
 
 As of right now, this application has only been tested on Windows 10 machines, and has only been configured to work with Philips Hue devices.
