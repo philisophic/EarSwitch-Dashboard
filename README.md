@@ -9,15 +9,20 @@ Current and possible future features include:
 - Temperature and climate controls (currently unimplemented)
 - Music controls (placeholder embed for now)
 - Accessibility software (e.g. EarSwitch software) launcher (unimplemented)
-- On-screen keyboard launcher (limited to win10's osk.exe atm)
+- On-screen keyboard launcher
 - Color configuration (limited implementation)
 
-As of right now, this application has only been tested on Windows 10 machines, and has only been configured to work with Philips Hue devices.
+As of right now, this application has only been tested on Windows 10 machines (and win10's osk.exe), and has only been configured to work with Philips Hue devices.
 
 Developed in collaboration with @rsingh84 and @n2pham.
 
-## Demonstration Video
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c9ZLN3ExBCw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+For more information about the EarSwitch device, check out the [website](https://www.earswitch.co.uk/) or the [original Hackaday.io project](https://hackaday.io/project/169110-earswitch-assistive-technology-switch-new-hci]!
+
+## (Early) Demonstration Video
+
+https://user-images.githubusercontent.com/19939916/172669441-b8b08bc8-6ce2-4385-a1f5-f1c899de8d82.mp4
+
+
 
 ## To Use
 
