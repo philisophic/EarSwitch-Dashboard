@@ -14,6 +14,8 @@ Current and possible future features include:
 
 As of right now, this application has only been tested on Windows 10 machines, and has only been configured to work with Philips Hue devices.
 
+Developed in collaboration with @rsingh84 and @n2pham.
+
 ## To Use
 
 To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
