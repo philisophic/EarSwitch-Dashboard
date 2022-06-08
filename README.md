@@ -2,13 +2,13 @@
 
 **A simple dashboard for use with an EarSwitch device or other AAC device.**
 
-This is a extensible, proof-of-concept dashboard built on [Electron](https://www.electronjs.org/) and [Material Design for Bootstrap](https://mdbootstrap.com/) that places a number of basic features in a clear and easy-to-reach layout.
+This is an extensible, proof-of-concept dashboard built on [Electron](https://www.electronjs.org/) and [Material Design for Bootstrap](https://mdbootstrap.com/) that places a number of basic features in a clear and easy-to-reach layout.
 
 Current and possible future features include:
 - Smart light control
 - Temperature and climate controls (currently unimplemented)
 - Music controls (placeholder embed for now)
-- Accessibility software launcher (unimplemented)
+- Accessibility software (e.g. EarSwitch software) launcher (unimplemented)
 - On-screen keyboard launcher
 - Color configuration (limited implementation)
 
