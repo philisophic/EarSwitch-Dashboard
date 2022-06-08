@@ -33,4 +33,5 @@ Note: If you're using Linux Bash for Windows, [see this guide](https://www.howto
 
 ## Credits
 Overlay transition animations were adapted from sample implementations given by [Codrops](https://github.com/codrops/FullscreenOverlayStyles).
-All icons were used with permission from Flaticon.com.
+
+All icons were used with permission from [Flaticon.com](https://www.flaticon.com/).
