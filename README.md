@@ -2,6 +2,8 @@
 
 **A simple dashboard for use with an EarSwitch device or other AAC device.**
 
+![UNgYDvsJRp](https://user-images.githubusercontent.com/19939916/172671116-14192ac6-fb1a-43d2-911a-d03aaf0d566a.png)
+
 This is an extensible, proof-of-concept dashboard built on [Electron](https://www.electronjs.org/) and [Material Design for Bootstrap](https://mdbootstrap.com/) that places a number of basic features in a clear and easy-to-reach layout.
 
 Current and possible future features include:
