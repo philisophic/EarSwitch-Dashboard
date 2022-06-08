@@ -16,6 +16,9 @@ As of right now, this application has only been tested on Windows 10 machines, a
 
 Developed in collaboration with @rsingh84 and @n2pham.
 
+## Demonstration Video
+https://www.youtube.com/watch?v=c9ZLN3ExBCw
+
 ## To Use
 
 To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
