@@ -23,11 +23,12 @@ function download(filename, text) {
 	download(filename, text);
   }, false);
 */
+
+
 const axios = require('axios');
 (function() {
-	/* Whoever is reading this I am so sorry, I got the code from Codrops but I couldn't figure
-		out how to apply it 6 times efficiently because of event listener callbacks so here's 
-		this horribly inefficient abomination. */
+	/* Overlay animation adapted from Codrops sample code:
+		https://github.com/codrops/FullscreenOverlayStyles */
 
 	var overlayIndices = [1, 2, 3, 4, 6];
 	for (var index of overlayIndices) {
@@ -88,21 +89,40 @@ const axios = require('axios');
 
 
 
-
+    // Light switches
     document.querySelector('.lightOn').addEventListener('click', () => { 
 
         turnLightOnOrOff(3, true); //turn light 3 on
 
-        
     }); 
-
     document.querySelector('.lightOff').addEventListener('click', () => { 
 
         turnLightOnOrOff(3, false); //turn light 3 on
 
-        
-    }); 
+    });
 
+
+    // Settings
+    bg1ColorPicker.addEventListener("change", watchbg1ColorPicker, false);
+	bg2ColorPicker.addEventListener("change", watchbg2ColorPicker, false);
+	buttonColorPicker.addEventListener("change", watchButtonColorPicker, false);
+
+	function watchbg1ColorPicker(event) {
+	  let root = document.documentElement;
+	  root.style.setProperty('--bgColor1', event.target.value);
+	}
+	function watchbg2ColorPicker(event) {
+	  let root = document.documentElement;
+	  root.style.setProperty('--bgColor2', event.target.value);
+	}
+	function watchButtonColorPicker(event) {
+	  let root = document.documentElement;
+	  root.style.setProperty('--buttonColor', event.target.value);
+	}
+	// TODO: add font size, font+icon color picker, overlay color picker
+
+
+	// open on-screen keyboard
 	var child = require('child_process').exec;
 	var executablePath = "C:\\Windows\\System32\\osk.exe";
 	document.getElementById('trigger-overlay-5').addEventListener('click', () => { 

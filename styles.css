@@ -1,21 +1,55 @@
 /* styles.css */
 
+:root {
+	--bgColor1: #E2F4FC;
+	--bgColor2: #B8E6FA;
+	--buttonColor: #878D96;
+	--overlayColor: #2F6F55F2;
+}
+
 body {
 	background: #B8E6FA;
-	background: linear-gradient(180deg, #E2F4FC 0%, #B8E6FA 100%);
+	background: linear-gradient(180deg, var(--bgColor1) 0%, var(--bgColor2) 100%);
+}
+
+.btn img {
+	max-width: 80%;
+	max-height: 40%;
 }
 
 .btn-square {
 	width: 40vw !important;
-	max-width: 100% !important;
 	max-height: 100% !important;
 	height: 45vh !important;
 	text-align: center;
 	padding: 0px;
-	font-size:36px !important;
+	font-size: 3.5vw !important;
 	text-transform: none !important;
-	background: #878D96;
+	background: var(--buttonColor);
 }
+
+.btn-half {
+	max-width: 100% !important;
+	max-height: 100% !important;
+	width: 30vw;
+	height: 90%;
+	text-align: center;
+	font-size: 3vw !important;
+	text-transform: none !important;
+	background: var(--buttonColor);
+}
+
+.overlay ul li h1 {
+	text-transform: uppercase;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* Overlay styles below adapted from Codrops sample code:
+	https://github.com/codrops/FullscreenOverlayStyles */
 
 /* Overlay style */
 .overlay {
@@ -24,7 +58,13 @@ body {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: rgba(153,204,51,0.95);
+	background: var(--overlayColor);
+}
+
+#overlay-6 li input {
+	width: 10vmin;
+	height: 10vmin;
+	max-height: 100%;
 }
 
 /* Overlay closing cross */
@@ -36,7 +76,7 @@ body {
 	top: 20px;
 	overflow: hidden;
 	border: none;
-	background: url(img/cross.svg) no-repeat center center;
+	background: url(img/cross.png) no-repeat center center;
 	background-size: cover;
 	text-indent: 200%;
 	color: transparent;
@@ -49,7 +89,7 @@ body {
 	text-align: center;
 	position: relative;
 	top: 50%;
-	height: 60%;
+	height: 80%;
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
@@ -70,11 +110,12 @@ body {
 	min-height: 54px;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
+	font-size: 54px;
+	font-weight: 300;
+	color: #fff;
 }
 
 .overlay ul li a {
-	font-size: 54px;
-	font-weight: 300;
 	display: block;
 	color: #fff;
 	-webkit-transition: color 0.2s;
