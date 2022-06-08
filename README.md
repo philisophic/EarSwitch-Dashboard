@@ -16,15 +16,12 @@ As of right now, this application has only been tested on Windows 10 machines (a
 
 Developed in collaboration with @rsingh84 and @n2pham.
 
-For more information about the EarSwitch device, check out the [website](https://www.earswitch.co.uk/) or the [original Hackaday.io project](https://hackaday.io/project/169110-earswitch-assistive-technology-switch-new-hci]!
-
-## (Early) Demonstration Video
-
-https://user-images.githubusercontent.com/19939916/172669441-b8b08bc8-6ce2-4385-a1f5-f1c899de8d82.mp4
-
+For more information about the EarSwitch device, check out the [website](https://www.earswitch.co.uk/) or the [original Hackaday.io project](https://hackaday.io/project/169110-earswitch-assistive-technology-switch-new-hci].
 
 
 ## To Use
+
+Check out our (early) demonstration video [here](https://www.youtube.com/watch?v=c9ZLN3ExBCw)!
 
 To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
