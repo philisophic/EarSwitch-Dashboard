@@ -16,7 +16,7 @@ As of right now, this application has only been tested on Windows 10 machines (a
 
 Developed in collaboration with @rsingh84 and @n2pham.
 
-For more information about the EarSwitch device, check out the [website](https://www.earswitch.co.uk/) or the [original Hackaday.io project](https://hackaday.io/project/169110-earswitch-assistive-technology-switch-new-hci].
+For more information about the EarSwitch device, check out the [website](https://www.earswitch.co.uk/) or the original Hackaday.io [project](https://hackaday.io/project/169110-earswitch-assistive-technology-switch-new-hci).
 
 
 ## To Use
