@@ -17,7 +17,7 @@ As of right now, this application has only been tested on Windows 10 machines, a
 Developed in collaboration with @rsingh84 and @n2pham.
 
 ## Demonstration Video
-https://www.youtube.com/watch?v=c9ZLN3ExBCw
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c9ZLN3ExBCw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## To Use
 
