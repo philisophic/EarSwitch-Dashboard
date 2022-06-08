@@ -14,7 +14,7 @@ Current and possible future features include:
 - On-screen keyboard launcher
 - Color configuration (limited implementation)
 
-As of right now, this application has only been tested on Windows 10 and iOS machines (and the keyboard launcher only implemented for win10's osk.exe), and has only been configured to work with Philips Hue devices.
+As of right now, this application has only been tested on Windows 10 and macOS machines (and the keyboard launcher only implemented for win10's osk.exe), and has only been configured to work with Philips Hue devices.
 
 Developed in collaboration with @rsingh84 and @n2pham.
 
